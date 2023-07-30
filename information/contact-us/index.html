@@ -10,6 +10,8 @@
     gtag('js', new Date());
     gtag('config', 'UA-5193706-18');
 </script>
+<!--<script src="http://localhost:8000/data/officers.js"/></script>-->
+<script src="https://warringtonlitandphil.org.uk/data/officers.js"/></script>
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <meta charset=utf-8>
 <link href="https://fonts.googleapis.com/css?family=Merriweather" rel=stylesheet>
@@ -202,18 +204,17 @@
                 </div>
                 <div class="col-lg-4 sidebar-area">
                     <div class="single_widget about_widget">
-                        <h2>Officers</h2>
-                        <p>Patricia Cockayne, President
-                        <p>Pat Barlow, Vice President
-                        <p>Penny Kimber, Secretary
-                        <p>Treasurer
-                        <p>David Cockayne (2022-23)
-                        <p>Bill Cooke (2023-24),&nbsp; Speaker Secretary
-                        <p>Geraldine Shortland, IT Secretary
-                        <p><br>
-                        <p>
+
+                        <h2>Council Officers</h2>
+                        <div id="officers">
+                            <!-- placeholder populated by JS -->
+                        </div>
+
                         <h2>Other Council members</h2>
-                        <p>Dave Barlow<br></div>
+                        <div id="other">
+                            <!-- placeholder populated by JS -->
+                        </div>
+                     </div>
                 </div>
             </div>
     </section>
@@ -265,4 +266,30 @@
 <script src=../../js/jquery.magnific-popup.min.js async></script>
 <script src=../../js/jquery.sticky.js async></script>
 <script src=../../js/main.js async></script>
+<script>
+    // these routines populates the officers and other members list
+    // using the data/officers.js file
+    let officersEl =[];
+    let otherEl = [];
+    window.onload = function(){
+        officersEl = document.getElementById("officers");
+        otherEl = document.getElementById("other");
+
+        officers.forEach(addOfficer);
+        otherMembers.forEach(addMember);
+    }
+
+    function addOfficer(el) {
+        let oDiv = document.createElement("div");
+        oDiv.innerHTML = "<p>" + el.name+ ", " + el.position + "</p>";
+        officersEl.appendChild(oDiv);
+    }
+
+    function addMember(el) {
+        let oDiv = document.createElement("div");
+        oDiv.innerHTML = "<p>" + el.name + "</p>";
+        otherEl.appendChild(oDiv);
+    }
+
+</script>
 </div>
