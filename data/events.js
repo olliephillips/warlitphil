@@ -206,7 +206,7 @@ let events = [
         "presenterBio": "Stephen Bull",
         "date": "02/10/2023",
         "time":"7:30PM",
-        "fileName":""
+        "fileName":"road-to-warrington.png"
     },
 
     {
@@ -216,7 +216,7 @@ let events = [
         "presenterBio": "Anthony Brandreth",
         "date": "06/11/2023",
         "time":"7:30PM",
-        "fileName":""
+        "fileName":"science-myth-trees.png"
     },
 
     {
@@ -226,7 +226,7 @@ let events = [
         "presenterBio": "Mike Bryan",
         "date": "04/12/2023",
         "time":"7:30PM",
-        "fileName":""
+        "fileName":"roman-britain.png"
     },
 
     {
@@ -236,7 +236,7 @@ let events = [
         "presenterBio": "Stella Fletcher",
         "date": "05/02/2024",
         "time":"7:30PM",
-        "fileName":""
+        "fileName":"italian-renaissance.png"
     },
 
     {
@@ -246,7 +246,7 @@ let events = [
         "presenterBio": "Floris van den Berg",
         "date": "04/03/2024",
         "time":"7:30PM",
-        "fileName":""
+        "fileName":"climate-crisis.png"
     },
 
     {
