@@ -197,6 +197,68 @@ let events = [
         "fileName":"meera%20maharaj.jpg"
     },
 
+    // 2023/24
+
+    {
+        "season":"2023/24",
+        "title": "1648 – the road to Warrington",
+        "description": "Stephen Bull is a military historian, specialising in the English Civil War. Mr Bull will concentrate on the so-called Battle of Preston, which was played out at Winwick, and which changed the face of English history.",
+        "presenterBio": "Stephen Bull",
+        "date": "02/10/2023",
+        "time":"7:30PM",
+        "fileName":""
+    },
+
+    {
+        "season":"2023/24",
+        "title": "The science and mythology of trees",
+        "description": "Anthony Brandreth is a long-time tree conservator and specialist, whose talk will look at how trees work, how they communicate with each other, and the profound effects they have on human well-being.",
+        "presenterBio": "Anthony Brandreth",
+        "date": "06/11/2023",
+        "time":"7:30PM",
+        "fileName":""
+    },
+
+    {
+        "season":"2023/24",
+        "title": "Roman Britain and where to Find it",
+        "description": "Mike Bryan's recent book on Roman Britain looks at the subject with fresh eyes and in a way to help the non-specialist understand what the Romans did for us, and where we can see their handiwork.",
+        "presenterBio": "Mike Bryan",
+        "date": "04/12/2023",
+        "time":"7:30PM",
+        "fileName":""
+    },
+
+    {
+        "season":"2023/24",
+        "title": "The Italian Renaissance in the English Imagination",
+        "description": "Dr Fletcher is a specialist in Italian cultural history during the Renaissance. Following her well-received talk on Machiavelli, Dr Fletcher will look at how the Renaissance has shaped the English outlook on the world.",
+        "presenterBio": "Stella Fletcher",
+        "date": "05/02/2024",
+        "time":"7:30PM",
+        "fileName":""
+    },
+
+    {
+        "season":"2023/24",
+        "title": "Climate crisis",
+        "description": "Dr van den Berg is a Dutch scholar, based at the University of Utrecht. His specialism is on climate change and the range of responses humans can involve themselves in, in order to repair the damage done and build a better future.",
+        "presenterBio": "Floris van den Berg",
+        "date": "04/03/2024",
+        "time":"7:30PM",
+        "fileName":""
+    },
+
+    {
+        "season":"2023/24",
+        "title": "President’s address",
+        "description": "Warrington Literary and Philosophical Society president Pat Barlow is scheduled to give her address this evening. Subject yet to be confirmed.",
+        "presenterBio": "Pat Barlow",
+        "date": "01/04/2024",
+        "time":"7:30PM",
+        "fileName":""
+    },
+
 
 
 ];

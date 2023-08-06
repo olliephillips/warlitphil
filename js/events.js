@@ -78,6 +78,7 @@ function addNextEvent(evnt) {
     let splitDate = date.split("/");
     let day = splitDate[0]
     let monthNum = splitDate[1];
+    let year = splitDate[2];
     let month = monthLookup[monthNum];
     let time = evnt.time;
 
@@ -107,7 +108,7 @@ function addNextEvent(evnt) {
     let eventList = document.getElementById("nextEvents");
 
     if(season === general.season) {
-        eDate = new Date(date);
+        eDate = new Date(year, monthNum, day);
         nDate = new Date();
         if (eDate > nDate) {
             if (nextCounter != 2) {
