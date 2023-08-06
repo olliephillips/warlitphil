@@ -2,13 +2,8 @@
 let officers = [
 
     {
-        "name": "Patricia Cockayne",
-        "position": "President"
-    },
-
-    {
         "name": "Pat Barlow",
-        "position": "Vice President"
+        "position": "President"
     },
 
     {
@@ -17,18 +12,13 @@ let officers = [
     },
 
     {
-        "name": "David Cockayne",
-        "position": "Treasurer"
-    },
-
-    {
         "name": "Bill Cooke",
         "position": "Speaker Secretary"
     },
 
     {
-        "name": "Geraldine Shortland",
-        "position": "IT Secretary"
+        "name": "Mike Rotherham",
+        "position": "Treasurer"
     }
 
 ];
@@ -38,5 +28,14 @@ let officers = [
 let otherMembers = [
     {
         "name": "Dave Barlow"
+    },
+    {
+        "name": "Patricia Cockayne"
+    },
+    {
+        "name": "David Cockayne"
+    },
+    {
+        "name": "Geraldine Shortland"
     }
 ];
