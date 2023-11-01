@@ -108,7 +108,7 @@ function addNextEvent(evnt) {
     let eventList = document.getElementById("nextEvents");
 
     if(season === general.season) {
-        eDate = new Date(year, monthNum, day);
+        eDate = new Date(year, monthNum -1 , day);
         nDate = new Date();
         if (eDate > nDate) {
             if (nextCounter != 2) {
@@ -135,6 +135,7 @@ function addPreviousEvent(evnt) {
     let splitDate = date.split("/");
     let day = splitDate[0]
     let monthNum = splitDate[1];
+    let year = splitDate[2];
     let month = monthLookup[monthNum];
     let time = evnt.time;
 
@@ -163,11 +164,21 @@ function addPreviousEvent(evnt) {
 
     let eventList = document.getElementById("previousEvents");
 
-    if(season != general.season) {
+    eDate = new Date(year, monthNum -1 , day);
+    nDate = new Date();
+    if (eDate < nDate) {
         let eDiv = document.createElement("div");
         eDiv.classList.add("col-lg-12");
         eDiv.innerHTML = eventsTemplate;
         eventList.appendChild(eDiv);
     }
+
+
+    /*if(season != general.season) {
+        let eDiv = document.createElement("div");
+        eDiv.classList.add("col-lg-12");
+        eDiv.innerHTML = eventsTemplate;
+        eventList.appendChild(eDiv);
+    }*/
 }
 
