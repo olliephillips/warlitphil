@@ -259,6 +259,74 @@ let events = [
         "fileName":""
     },
 
+    // 2024/25 Season
+
+    {
+        "season":"2024/25",
+        "title": "Traditional music",
+        "description": "Geoff Bibby, a much-loved local performer, explores the literary and musical qualities of a range of traditional English songs, and sings a selection in the traditional unaccompanied style.",
+        "presenterBio": "Geoff Bibby",
+        "date": "07/10/2024",
+        "time":"7:30PM",
+        "fileName":""
+    },
+
+    {
+        "season":"2024/25",
+        "title": "The opportunity and the threat of AI",
+        "description": "A philosophical and ethical look at the opportunities and threats presented by AI and new technology.  Phil is an engineer with wide experience in complex engineering, scientific and research projects both in the UK and internationally.",
+        "presenterBio": "Phil Atkinson",
+        "date": "04/11/2024",
+        "time":"7:30PM",
+        "fileName":""
+    },
+
+    {
+        "season":"2024/25",
+        "title": "Roman Britain and where to find it",
+        "description": "Mike Bryan, historian, author and publisher, gives insights into Roman sites such as Hadrian’s Wall, the Antonine Wall and the Forts of the Saxon Shore.",
+        "presenterBio": "Mike Bryan",
+        "date": "02/12/2024",
+        "time":"7:30PM",
+        "fileName":""
+    },
+
+    {
+        "season":"2024/25",
+        "title": "The importance of science education",
+        "description": "An award-winning teacher with 35 years’ experience in science teaching, training and development, Wendy Willard will explore the decline of Science Education in the UK, its impact and possible solutions.",
+        "presenterBio": "Wendy Winnard",
+        "date": "03/02/2025",
+        "time":"7:30PM",
+        "fileName":""
+    },
+
+    {
+        "season":"2024/25",
+        "title": "Local government finances",
+        "description": "Local authorities are responsible for a wide range of services from emptying bins to housing the homeless and providing social care. How is all this funded? Bob Barr is a career academic and geographer with years of experience on Borough and Parish councils. His talk will cover the issues facing local government today, and how it is all paid for.",
+        "presenterBio": "Dr Robert Barr OBE",
+        "date": "03/03/2025",
+        "time":"7:30PM",
+        "fileName":""
+    },
+
+    {
+        "season":"2024/25",
+        "title": "AGM/William Beamont: Warrington’s greatest citizen?",
+        "description": "A look at the life and achievements of this celebrated local benefactor, historian and former mayor of Warrington.",
+        "presenterBio": "Harry Wells",
+        "date": "07/04/2025",
+        "time":"7:30PM",
+        "fileName":""
+    }
+
+
+
+    // 2025/26 Season
+
+
+
 
 
 ];
