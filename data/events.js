@@ -268,7 +268,7 @@ let events = [
         "presenterBio": "Geoff Bibby",
         "date": "07/10/2024",
         "time":"7:30PM",
-        "fileName":""
+        "fileName":"bibby.jpg"
     },
 
     {
@@ -278,7 +278,7 @@ let events = [
         "presenterBio": "Phil Atkinson",
         "date": "04/11/2024",
         "time":"7:30PM",
-        "fileName":""
+        "fileName":"phil25.jpg"
     },
 
     {
@@ -288,7 +288,7 @@ let events = [
         "presenterBio": "Mike Bryan",
         "date": "02/12/2024",
         "time":"7:30PM",
-        "fileName":""
+        "fileName":"graham25.jpg"
     },
 
     {
@@ -298,7 +298,7 @@ let events = [
         "presenterBio": "Wendy Winnard",
         "date": "03/02/2025",
         "time":"7:30PM",
-        "fileName":""
+        "fileName":"winnard25.jpg"
     },
 
     {
@@ -308,17 +308,17 @@ let events = [
         "presenterBio": "Dr Robert Barr OBE",
         "date": "03/03/2025",
         "time":"7:30PM",
-        "fileName":""
+        "fileName":"barr25.jpg"
     },
 
     {
         "season":"2024/25",
         "title": "AGM/William Beamont: Warrington’s greatest citizen?",
-        "description": "A look at the life and achievements of this celebrated local benefactor, historian and former mayor of Warrington.",
+        "description": "Harry Wells shows us the life and achievements of this celebrated local benefactor, historian and former mayor of Warrington.",
         "presenterBio": "Harry Wells",
         "date": "07/04/2025",
         "time":"7:30PM",
-        "fileName":""
+        "fileName":"wells25.jpg"
     }
 
 

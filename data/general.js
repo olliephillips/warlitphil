@@ -9,7 +9,7 @@ let general = {
     // banner notification for cancelled events etc
     "banner": {
         "message": "We are now adding the 2024/25 event calendar! Please check back soon.",
-        "active": true
+        "active": false
     }
 
 }
