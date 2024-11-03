@@ -7,19 +7,25 @@ let officers = [
     },
 
     {
-        "name": "Penny Kimber",
-        "position": "Secretary"
-    },
-
-    {
         "name": "Bill Cooke",
-        "position": "Speaker Secretary"
+        "position": "Vice President"
     },
 
     {
         "name": "Mike Rotherham",
         "position": "Treasurer"
+    },
+
+    {
+        "name": "Penny Kimber",
+        "position": "Secretary"
+    },
+
+    {
+        "name": "Trish Cockayne",
+        "position": "Membership Secretary"
     }
+
 
 ];
 
@@ -30,12 +36,12 @@ let otherMembers = [
         "name": "Dave Barlow"
     },
     {
-        "name": "Patricia Cockayne"
-    },
-    {
         "name": "David Cockayne"
     },
     {
-        "name": "Geraldine Shortland"
+        "name": "Mick Dean"
+    },
+    {
+        "name": "Tom Salvini"
     }
 ];
