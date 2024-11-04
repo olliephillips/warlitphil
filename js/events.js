@@ -110,7 +110,9 @@ function addNextEvent(evnt) {
     if(season === general.season) {
         eDate = new Date(year, monthNum -1 , day);
         nDate = new Date();
-        if (eDate > nDate) {
+        nDate.setHours(0, 0, 0, 0); // strip time for proper comparison
+
+        if (eDate >= nDate) {
             if (nextCounter != 2) {
                 let eDiv = document.createElement("div");
                 eDiv.classList.add("col-lg-6");
